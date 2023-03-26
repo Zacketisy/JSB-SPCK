@@ -113,7 +113,7 @@
             <div class="row">
                 <div class="col-md-12">
 
-                    <form class="main_form">
+                    <form class="main_form" action="submit" method="post">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <input class="form-control" placeholder="Your name" type="text" name="Your Name">
@@ -132,8 +132,8 @@
                                 <br>
                             </div>
                             <div style="display: flex;" class="col-md-12">
-                                 <a href="login.html"> <button class="send"> Log in</button> </a> 
-                                <button class="send"> <a href="index.html" style="color: white;">Register</a> </button>
+                                <button class="send"  type="submit" formaction="./login.html"> Log in</button>
+                                <button class="send"  type="submit" formaction="./register.html"> Register </button>
                             </div>
                         </div>
                     </form>
